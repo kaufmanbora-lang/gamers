@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-mini-games
+    runtime: static
+    buildCommand: echo "No build needed"
+    staticPublishPath: .
+    autoDeploy: true
